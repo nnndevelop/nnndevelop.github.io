@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto+Mono:wght@500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #c6ac8f;
+    nav{
+        background-color:#22333b;
+        width: 100%;
+        height: 60px;
+        .navbar{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 50px;
+            color: #c6ac8f;
+            font-family: "Josefin sans";
+            .logo{
+                width: 10rem;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i{
+                    margin: 0 15px;
+                    font-size: 40px;
+                }
+            }
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                li{
+                    font-size: 30px;
+                    padding: 20px 20px;
+                    list-style: none;
+                    text-transform: uppercase;
+                }
+            }    
+        }
+    }
+}
+.con{
+    position: relative;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .text{
+        width: 500px;
+        margin: auto;
+        color: #0a0908;
+        font-family: "Roboto mono";
+        h1{
+            font-size: 50px;
+            width: bold;
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+    .img{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        height: 820px;
+        background-color: #5e503f;
+        img{
+            width: 590px;
+            height: 820px;
+            
+        }
+    }
+    
+    .logo1{
+        
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 35rem;
+        left: 10rem;
+        i{
+            margin: 0 10px;
+        }
+    }
+}    
